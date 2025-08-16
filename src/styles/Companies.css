@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.logos-slide {
+  font-family: 'Righteous', cursive;
+  color: #ffffff;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+}
+
+.navbar .tag {
+  margin: 0 auto;
+  width: 70%;
+  height: 100%;
+  border-radius: 50px;
+  padding-block: 1rem;
+  padding-inline: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  display: flex;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: flex;
+  animation: 10s slide infinite linear;
+}
+
+.logos-slide>div {
+  height: 30px;
+  margin: 0 40px;
+}

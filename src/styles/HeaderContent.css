@@ -1,0 +1,59 @@
+.badge-header {
+    color: rgb(255, 255, 255);
+    width: auto;
+    padding-inline: 1rem;
+    height: 34px;
+    display: flex;
+    font-size: 12px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 50px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.05);
+    --bg-currentcolor: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.badge-header p {
+    margin-left: 0.25rem;
+}
+
+.buttons-header {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttons-header> :nth-child(1) {
+    background-color: #ffff;
+    color: #09090B;
+    border-radius: 50px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+    outline: none;
+    pointer-events: all;
+
+
+}
+
+.buttons-header> :nth-child(2) {
+    outline: none;
+    border-radius: 50px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.05);
+    --bg-currentcolor: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: 0.2s;
+        pointer-events: all;
+}

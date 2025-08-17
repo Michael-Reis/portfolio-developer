@@ -9,9 +9,8 @@
 .about-content {
     display: flex;
     flex-direction: row;
-    max-width: 1200px;
+    max-width: 1300px;
     width: 100%;
-    height: 100%;
     padding: 2em;
     gap: 100px;
     margin-left: auto;
@@ -94,4 +93,66 @@
 
 .profile-info>h4 {
     text-align: start;
+}
+
+/* Card de Depoimento */
+.depoiment-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 16px;
+}
+
+
+.depoiment-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.depoiment-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.depoiment-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.depoiment-name {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+    text-align: start;
+}
+
+.depoiment-role {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-align: start;
+    margin-left: 3px;
+}
+
+.depoiment-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    margin: 0 0 16px 0;
+    font-weight: 300;
+}
+
+.depoiment-stars {
+    text-align: center;
+    font-size: 1.2rem;
 }

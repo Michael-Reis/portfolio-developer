@@ -6,24 +6,64 @@ export default function About() {
 
 
     const items: any[] = [
-        { content: "Text Item 1" },
-        { content: <p>Paragraph Item 2</p> },
-        { content: "Text Item 3" },
-        { content: <p>Paragraph Item 4</p> },
-        { content: "Text Item 5" },
-        { content: <p>Paragraph Item 6</p> },
-        { content: "Text Item 7" },
-        { content: <p>Paragraph Item 8</p> },
-        { content: "Text Item 9" },
-        { content: <p>Paragraph Item 10</p> },
-        { content: "Text Item 11" },
-        { content: <p>Paragraph Item 12</p> },
-        { content: "Text Item 13" },
-        { content: <p>Paragraph Item 14</p> },
+        {
+            content: (
+                <div className="depoiment-card">
+                    <div className="depoiment-header">
+                        <img src="/depoiments/laudir.jpg" alt="laudir" className="depoiment-img" />
+                        <div className="depoiment-info">
+                            <p className="depoiment-name">Laudir Winck</p>
+                            <span className="depoiment-role">Cliente</span>
+                        </div>
+                    </div>
+                    <p className="depoiment-text">
+                        "Quando agimos com integridade, não apenas protegemos os outros, mas também fortalecemos a confiança em toda a comunidade online. Michel Reis, sua vigilância e compromisso em tornar a internet um lugar mais seguro são verdadeiramente inspiradores. Agradecemos imensamente sua contribuição ao identificar e relatar uma falha de segurança em nosso site."
+                    </p>
+                    <div className="depoiment-stars">
+                        ⭐⭐⭐⭐⭐
+                    </div>
+                </div>
+            )
+        },
+        {
+            content: <div className="depoiment-card">
+                <div className="depoiment-header">
+                    <img src="/depoiments/luciano.jpg" alt="Luciano" className="depoiment-img" />
+                    <div className="depoiment-info">
+                        <p className="depoiment-name">Luciano Dexheimer</p>
+                        <span className="depoiment-role">Cliente</span>
+                    </div>
+                </div>
+                <p className="depoiment-text">
+                    "O Michael demonstrou profissionalismo e grande conhecimento em segurança da informação ao identificar e reportar uma falha crítica em nossa aplicação. Sua postura proativa, ética e suporte durante a correção foram fundamentais para garantir a segurança do sistema. Agradecemos sua contribuição e o recomendamos como um profissional altamente qualificado e confiável."
+                </p>
+                <div className="depoiment-stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+            </div>
+        },
+        {
+            content: <div className="depoiment-card">
+                <div className="depoiment-header">
+                    <img src="/depoiments/leticia.jpg" alt="Luciano" className="depoiment-img" />
+                    <div className="depoiment-info">
+                        <p className="depoiment-name">Leticia Midori</p>
+                        <span className="depoiment-role">Gestora</span>
+                    </div>
+                </div>
+                <p className="depoiment-text">
+                    "Michael é um profissional incrível, tive o prazer de tê-lo como meu funcionário, dinâmico, pró-ativo, estudioso, sempre buscando evoluir e agregar, trabalha super bem em equipe e faz do ambiente de trabalho gostoso de se conviver! "
+                </p>
+                <div className="depoiment-stars">
+                    ⭐⭐⭐⭐⭐
+                </div>
+            </div>
+        },
     ];
 
+
     return (
-        <div style={{ width: '100%', height: '100vh', position: 'relative' }}>
+        <div style={{ width: '100%', height: '100%', position: 'relative' }}>
             <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
                 <Threads
                     amplitude={2}
@@ -52,7 +92,7 @@ export default function About() {
                         </p>
 
                     </div>
-                    <div style={{position: 'relative', width: '100%', height: '100%'}}>
+                    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
                         <InfiniteScroll
                             items={items}
                             isTilted={true}

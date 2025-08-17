@@ -1,56 +1,59 @@
-import CardSwap, { Card } from '../Components/CardSwap/CardSwap';
-export default function Projects() {
-    return (
-        <div style={{ height: '600px', width: "100%",position: 'relative', overflow: 'hidden', }}>
-            <div style={{
-           
-            }}>
+import { HeroParallax } from "../ui/hero-parallax";
 
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?
-            </div>
-            <CardSwap
-                cardDistance={100}
-                verticalDistance={120}
-                delay={5000}
-                skewAmount={12}
-                pauseOnHover={false}
-            >
-                <Card>
-                    <img src="/projects/marvel.jpg" alt="" style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                        borderRadius: '10px'
-                    }}/>
-                </Card>
-                <Card>
-                    <img src="/projects/spider-man.jpg" alt="" style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                        borderRadius: '10px'
-                    }} />
-                </Card>
-                <Card>
-                    <img src="/projects/starwars.jpg" alt="" style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                        borderRadius: '10px'
-                    }} />
-                </Card>
-            </CardSwap>
+export default function Projects() {
+    const projects = [
+        {
+            title: "Marvel App",
+            link: "#",
+            thumbnail: "/projects/marvel.jpg"
+        },
+        {
+            title: "Spider-Man Project",
+            link: "#",
+            thumbnail: "/projects/spider-man.jpg"
+        },
+        {
+            title: "Star Wars Platform",
+            link: "#",
+            thumbnail: "/projects/starwars.jpg"
+        },
+        {
+            title: "Marvel App",
+            link: "#",
+            thumbnail: "/projects/marvel.jpg"
+        },
+        {
+            title: "Spider-Man Project",
+            link: "#",
+            thumbnail: "/projects/spider-man.jpg"
+        },
+        {
+            title: "Star Wars Platform",
+            link: "#",
+            thumbnail: "/projects/starwars.jpg"
+        },
+        {
+            title: "Marvel App",
+            link: "#",
+            thumbnail: "/projects/marvel.jpg"
+        },
+        {
+            title: "Spider-Man Project",
+            link: "#",
+            thumbnail: "/projects/spider-man.jpg"
+        },
+        {
+            title: "Star Wars Platform",
+            link: "#",
+            thumbnail: "/projects/starwars.jpg"
+        },
+    
+
+    ];
+
+    return (
+        <div className="relative">
+            <HeroParallax products={projects} />
         </div>
     );
 }

@@ -4,6 +4,8 @@ import Header from './components/Header/';
 import About from './components/About';
 import Technology from './components/Technology';
 import Projects from './components/Projects';
+// import CallToAction from './components/Call';
+import GoogleGeminiEffectDemo from './components/Google';
 function App() {
 
   return (
@@ -13,7 +15,9 @@ function App() {
       <About />
       <Technology />
       <Projects />
-      
+      {/* <CallToAction /> */}
+      <GoogleGeminiEffectDemo />
+
 
     </>
   )

@@ -1,16 +1,9 @@
 import CardSwap, { Card } from '../Components/CardSwap/CardSwap';
 export default function Projects() {
     return (
-        <div style={{ height: '600px', width: "100%",position: 'relative', overflow: 'hidden' }}>
+        <div style={{ height: '600px', width: "100%",position: 'relative', overflow: 'hidden', }}>
             <div style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                justifyContent: 'center',
-
-                height: '100%',
-                
-                width: '50%',
+           
             }}>
 
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum id vel voluptas deleniti mollitia totam suscipit maiores. Facere explicabo consectetur ipsam sed voluptate, minima amet hic distinctio iste eos?

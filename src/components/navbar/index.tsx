@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <div className="navbar">
             <div className="tag">
-                <ShinyText text="Michael Reis" disabled={false} speed={5} className='custom-class' />
+                <ShinyText text="Michael Reis" disabled={false} speed={5} />
                 <div className="navbar-links">
                     <ul>
                         <li><a href="#inicio">Inicio</a></li>

@@ -17,7 +17,7 @@ export default function About() {
                         </div>
                     </div>
                     <p className="depoiment-text">
-                        "Quando agimos com integridade, não apenas protegemos os outros, mas também fortalecemos a confiança em toda a comunidade online. Michel Reis, sua vigilância e compromisso em tornar a internet um lugar mais seguro são verdadeiramente inspiradores. Agradecemos imensamente sua contribuição ao identificar e relatar uma falha de segurança em nosso site."
+                        "Michel Reis, sua vigilância e compromisso em tornar a internet um lugar mais seguro são verdadeiramente inspiradores. Agradecemos imensamente sua contribuição ao identificar e relatar uma falha de segurança em nosso site."
                     </p>
                     <div className="depoiment-stars">
                         ⭐⭐⭐⭐⭐
@@ -35,7 +35,7 @@ export default function About() {
                     </div>
                 </div>
                 <p className="depoiment-text">
-                    "O Michael demonstrou profissionalismo e grande conhecimento em segurança da informação ao identificar e reportar uma falha crítica em nossa aplicação. Sua postura proativa, ética e suporte durante a correção foram fundamentais para garantir a segurança do sistema. Agradecemos sua contribuição e o recomendamos como um profissional altamente qualificado e confiável."
+                    "O Michael demonstrou profissionalismo e grande conhecimento em segurança da informação ao identificar e reportar uma falha crítica em nossa aplicação. Sua postura proativa, ética e suporte durante a correção fo..."
                 </p>
                 <div className="depoiment-stars">
                     ⭐⭐⭐⭐⭐

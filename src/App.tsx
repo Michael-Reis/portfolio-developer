@@ -2,6 +2,7 @@ import './App.css'
 import Companies from './components/Companies/companies'
 import Header from './components/Header/';
 import About from './components/About';
+import Technology from './components/Technology';
 function App() {
 
   return (
@@ -9,7 +10,7 @@ function App() {
       <Header />
       <Companies />
       <About />
-      {/* <RippleGrid /> */}
+      <Technology />
     </>
   )
 }

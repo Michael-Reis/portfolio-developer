@@ -1,5 +1,6 @@
 import Threads from "../Backgrounds/Threads/Threads";
 import InfiniteScroll from "../Components/InfiniteScroll/InfiniteScroll";
+import ShinyText from "../TextAnimations/ShinyText/ShinyText";
 import "./About.css";
 
 export default function About() {
@@ -84,7 +85,7 @@ export default function About() {
                             <img src="/me/michael.png" alt="Michael Reis" className="profile-picture" />
                             <div className="profile-info">
                                 <h1>Michael Reis</h1>
-                                <h4>Gerente de TI</h4>
+                                <h4><ShinyText text="Gerente de TI" disabled={false} speed={5} className='custom-class' /></h4>
                             </div>
                         </div>
                         <p>

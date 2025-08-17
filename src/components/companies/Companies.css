@@ -68,13 +68,13 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
 }
 
-.logos:hover .logos-slide {
+/* .logos:hover .logos-slide {
   animation-play-state: paused;
-}
+} */
 
 .logos-slide {
   display: flex;
-  animation: 10s slide infinite linear;
+  animation: 20s slide infinite linear;
 }
 
 .logos-slide>div {

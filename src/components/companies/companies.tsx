@@ -1,4 +1,4 @@
-import "../../styles/Companies.css"
+import "./Companies.css"
 
 export default function Companies() {
     return (

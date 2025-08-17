@@ -1,6 +1,6 @@
-import Beams from "./header-background";
-import Navbar from "../navbar";
-import HeaderContent from "../header-content";       
+import Beams from "../Backgrounds/Beams/Beams";
+import Navbar from "../Navbar";
+import HeaderContent from "../Header-content";       
 
 export default function Header() {
     return (

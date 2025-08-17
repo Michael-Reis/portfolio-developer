@@ -1,5 +1,10 @@
+/*
+	Installed from https://reactbits.dev/ts/default/
+*/
+
 import { useRef, useEffect } from "react";
 import { Renderer, Program, Triangle, Mesh } from "ogl";
+import "./RippleGrid.css";
 
 type Props = {
   enableRainbow?: boolean;
@@ -250,11 +255,11 @@ void main() {
         containerRef.current.removeEventListener("mousemove", handleMouseMove);
         containerRef.current.removeEventListener(
           "mouseenter",
-          handleMouseEnter
+          handleMouseEnter,
         );
         containerRef.current.removeEventListener(
           "mouseleave",
-          handleMouseLeave
+          handleMouseLeave,
         );
       }
       renderer.gl.getExtension("WEBGL_lose_context")?.loseContext();

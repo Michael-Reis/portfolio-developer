@@ -1,7 +1,7 @@
 import './App.css'
-import Companies from './components/companies/companies'
-import Header from './components/header-beams';
-import About from './components/about';
+import Companies from './components/Companies/companies'
+import Header from './components/Header/';
+import About from './components/About';
 function App() {
 
   return (

@@ -91,6 +91,12 @@
     justify-content: center;
 }
 
+.profile-info>h1 {
+    font-size: 1.2rem;
+    text-align: start;
+    color: rgb(255, 255, 0);
+}
+
 .profile-info>h4 {
     text-align: start;
 }

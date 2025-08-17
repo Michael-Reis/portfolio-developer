@@ -82,3 +82,14 @@
     font-weight: 500;
     margin-bottom: 0px;
 }
+
+.message-content-secondary {
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 16px;
+    margin-top: 1rem;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: 400;
+    margin-bottom: 0px;
+    max-width:  60%;
+}

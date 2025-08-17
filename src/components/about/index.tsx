@@ -99,6 +99,7 @@ export default function About() {
                             tiltDirection='right'
                             autoplay={true}
                             autoplaySpeed={0.1}
+                            pauseOnHover={true}
                         />
                     </div>
 
@@ -107,6 +108,20 @@ export default function About() {
 
 
             </div>
+
+            <div
+                style={{
+                    position: 'absolute',
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+                    height: '120px',
+                    background: 'linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 30%, rgba(0, 0, 0, 0.8) 70%, rgba(0, 0, 0, 1) 100%)',
+                    pointerEvents: 'none',
+                    zIndex: 10
+                }}
+            />
+
         </div >
     )
 }

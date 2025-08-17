@@ -3,6 +3,7 @@ import Companies from './components/Companies/companies'
 import Header from './components/Header/';
 import About from './components/About';
 import Technology from './components/Technology';
+import Projects from './components/Projects';
 function App() {
 
   return (
@@ -11,6 +12,9 @@ function App() {
       <Companies />
       <About />
       <Technology />
+      <Projects />
+      
+
     </>
   )
 }

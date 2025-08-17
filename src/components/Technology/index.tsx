@@ -1,5 +1,6 @@
 import CurvedLoop from "../TextAnimations/CurvedLoop/CurvedLoop";
 
+
 export default function Technology() {
     return (
         <>
@@ -11,6 +12,8 @@ export default function Technology() {
                 interactive={true}
                 className="custom-text-style"
             />
+         
+
         </>
     )
 }

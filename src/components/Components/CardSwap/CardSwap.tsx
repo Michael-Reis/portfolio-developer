@@ -7,9 +7,9 @@ import React, {
   cloneElement,
   forwardRef,
   isValidElement,
-  ReactElement,
-  ReactNode,
-  RefObject,
+  type ReactElement,
+  type ReactNode,
+  type RefObject,
   useEffect,
   useMemo,
   useRef,
@@ -114,7 +114,7 @@ const CardSwap: React.FC<CardSwapProps> = ({
     [children],
   );
   const refs = useMemo<CardRef[]>(
-    () => childArr.map(() => React.createRef<HTMLDivElement>()),
+    () => childArr.map(() => React.createRef<HTMLDivElement>() as CardRef),
     [childArr.length],
   );
 
@@ -123,7 +123,7 @@ const CardSwap: React.FC<CardSwapProps> = ({
   );
 
   const tlRef = useRef<gsap.core.Timeline | null>(null);
-  const intervalRef = useRef<number>();
+  const intervalRef = useRef<number | null>(null);
   const container = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -205,7 +205,9 @@ const CardSwap: React.FC<CardSwapProps> = ({
       const node = container.current!;
       const pause = () => {
         tlRef.current?.pause();
-        clearInterval(intervalRef.current);
+        if (intervalRef.current !== null) {
+          clearInterval(intervalRef.current);
+        }
       };
       const resume = () => {
         tlRef.current?.play();
@@ -216,10 +218,16 @@ const CardSwap: React.FC<CardSwapProps> = ({
       return () => {
         node.removeEventListener("mouseenter", pause);
         node.removeEventListener("mouseleave", resume);
-        clearInterval(intervalRef.current);
+        if (intervalRef.current !== null) {
+          clearInterval(intervalRef.current);
+        }
       };
     }
-    return () => clearInterval(intervalRef.current);
+    return () => {
+      if (intervalRef.current !== null) {
+        clearInterval(intervalRef.current);
+      }
+    };
   }, [cardDistance, verticalDistance, delay, pauseOnHover, skewAmount, easing]);
 
   const rendered = childArr.map((child, i) =>

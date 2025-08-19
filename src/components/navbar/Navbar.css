@@ -17,3 +17,14 @@
 .navbar {
     z-index: 2;
 }
+
+@media (max-width: 768px) {
+    .navbar .tag {
+        width: 90%;
+        padding-inline: 1rem;
+    }
+
+
+ 
+
+}

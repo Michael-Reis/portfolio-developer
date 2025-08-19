@@ -31,6 +31,15 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+@media (max-width: 768px) {
+    .badge-header {
+        width: auto;
+        padding-inline: 0.5rem;
+        font-size: 14px;
+
+    }
+}
+
 .badge-header p {
     margin-left: 0.25rem;
 }
@@ -75,7 +84,6 @@
 .message-content {
     text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 16px;
     margin-top: 1rem;
-    font-size: 35px;
     line-height: 1.2;
     text-align: center;
     letter-spacing: -2px;
@@ -86,7 +94,6 @@
 .message-content-secondary {
     text-shadow: rgba(0, 0, 0, 0.5) 0px 0px 16px;
     margin-top: 1rem;
-    font-size: 20px;
     text-align: center;
     letter-spacing: -1px;
     font-weight: 400;

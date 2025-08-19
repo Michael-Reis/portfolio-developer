@@ -17,7 +17,7 @@ export default function HeaderContent() {
                 delay={150}
                 animateBy="words"
                 direction="top"
-                className="text-2xl mb-8 message-content"
+                className="text-3xl sm:text-4xl mb-8 message-content flex items-center justify-center"
             />
 
             <BlurText
@@ -25,7 +25,7 @@ export default function HeaderContent() {
                 delay={150}
                 animateBy="words"
                 direction="top"
-                className="text-2xl mb-8 message-content-secondary"
+                className="mb-8 message-content-secondary  flex items-center justify-center "
             />
 
             <div className="buttons-header">

@@ -12,8 +12,6 @@ export default function Technology() {
                 interactive={true}
                 className="custom-text-style"
             />
-         
-
         </>
     )
 }

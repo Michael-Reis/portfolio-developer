@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
 .logos-slide {
-  font-family: 'Righteous', cursive;
+  font-family: 'Poppins', sans-serif;
   color: #ffffff;
   font-size: 2em;
   text-align: center;
   margin-bottom: 20px;
+  font-weight: 600; /* Adicionando peso para compensar a mudança de Righteous */
 }
 
 .navbar {

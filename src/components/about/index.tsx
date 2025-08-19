@@ -1,70 +1,71 @@
 import Threads from "../Backgrounds/Threads/Threads";
 import InfiniteScroll from "../Components/InfiniteScroll/InfiniteScroll";
+import { MarqueeDemoVertical } from "../Depoiments";
 import ShinyText from "../TextAnimations/ShinyText/ShinyText";
 import "./About.css";
 
 export default function About() {
 
 
-    const items: any[] = [
-        {
-            content: (
-                <div className="depoiment-card">
-                    <div className="depoiment-header">
-                        <img src="/depoiments/laudir.jpg" alt="laudir" className="depoiment-img" />
-                        <div className="depoiment-info">
-                            <p className="depoiment-name">Laudir Winck</p>
-                            <span className="depoiment-role">Cliente</span>
-                        </div>
-                    </div>
-                    <p className="depoiment-text">
-                        "Michel Reis, sua vigilância e compromisso em tornar a internet um lugar mais seguro são verdadeiramente inspiradores. Agradecemos imensamente sua contribuição ao identificar e relatar uma falha de segurança em nosso site."
-                    </p>
-                    <div className="depoiment-stars">
-                        ⭐⭐⭐⭐⭐
-                    </div>
-                </div>
-            )
-        },
-        {
-            content: <div className="depoiment-card">
-                <div className="depoiment-header">
-                    <img src="/depoiments/luciano.jpg" alt="Luciano" className="depoiment-img" />
-                    <div className="depoiment-info">
-                        <p className="depoiment-name">Luciano Dexheimer</p>
-                        <span className="depoiment-role">Cliente</span>
-                    </div>
-                </div>
-                <p className="depoiment-text">
-                    "O Michael demonstrou profissionalismo e grande conhecimento em segurança da informação ao identificar e reportar uma falha crítica em nossa aplicação. Sua postura proativa, ética e suporte durante a correção fo..."
-                </p>
-                <div className="depoiment-stars">
-                    ⭐⭐⭐⭐⭐
-                </div>
-            </div>
-        },
-        {
-            content: <div className="depoiment-card">
-                <div className="depoiment-header">
-                    <img src="/depoiments/leticia.jpg" alt="Luciano" className="depoiment-img" />
-                    <div className="depoiment-info">
-                        <p className="depoiment-name">Leticia Midori</p>
-                        <span className="depoiment-role">Gestora</span>
-                    </div>
-                </div>
-                <p className="depoiment-text">
-                    "Michael é um profissional incrível, tive o prazer de tê-lo como meu funcionário, dinâmico, pró-ativo, estudioso, sempre buscando evoluir e agregar, trabalha super bem em equipe e faz do ambiente de trabalho gostoso de se conviver! "
-                </p>
-                <div className="depoiment-stars">
-                    ⭐⭐⭐⭐⭐
-                </div>
-            </div>
-        },
-    ];
+    // const items: any[] = [
+    //     {
+    //         content: (
+    //             <div className="depoiment-card">
+    //                 <div className="depoiment-header">
+    //                     <img src="/depoiments/laudir.jpg" alt="laudir" className="depoiment-img" />
+    //                     <div className="depoiment-info">
+    //                         <p className="depoiment-name">Laudir Winck</p>
+    //                         <span className="depoiment-role">Cliente</span>
+    //                     </div>
+    //                 </div>
+    //                 <p className="depoiment-text">
+    //                     "Michel Reis, sua vigilância e compromisso em tornar a internet um lugar mais seguro são verdadeiramente inspiradores. Agradecemos imensamente sua contribuição ao identificar e relatar uma falha de segurança em nosso site."
+    //                 </p>
+    //                 <div className="depoiment-stars">
+    //                     ⭐⭐⭐⭐⭐
+    //                 </div>
+    //             </div>
+    //         )
+    //     },
+    //     {
+    //         content: <div className="depoiment-card">
+    //             <div className="depoiment-header">
+    //                 <img src="/depoiments/luciano.jpg" alt="Luciano" className="depoiment-img" />
+    //                 <div className="depoiment-info">
+    //                     <p className="depoiment-name">Luciano Dexheimer</p>
+    //                     <span className="depoiment-role">Cliente</span>
+    //                 </div>
+    //             </div>
+    //             <p className="depoiment-text">
+    //                 "O Michael demonstrou profissionalismo e grande conhecimento em segurança da informação ao identificar e reportar uma falha crítica em nossa aplicação. Sua postura proativa, ética e suporte durante a correção fo..."
+    //             </p>
+    //             <div className="depoiment-stars">
+    //                 ⭐⭐⭐⭐⭐
+    //             </div>
+    //         </div>
+    //     },
+    //     {
+    //         content: <div className="depoiment-card">
+    //             <div className="depoiment-header">
+    //                 <img src="/depoiments/leticia.jpg" alt="Luciano" className="depoiment-img" />
+    //                 <div className="depoiment-info">
+    //                     <p className="depoiment-name">Leticia Midori</p>
+    //                     <span className="depoiment-role">Gestora</span>
+    //                 </div>
+    //             </div>
+    //             <p className="depoiment-text">
+    //                 "Michael é um profissional incrível, tive o prazer de tê-lo como meu funcionário, dinâmico, pró-ativo, estudioso, sempre buscando evoluir e agregar, trabalha super bem em equipe e faz do ambiente de trabalho gostoso de se conviver! "
+    //             </p>
+    //             <div className="depoiment-stars">
+    //                 ⭐⭐⭐⭐⭐
+    //             </div>
+    //         </div>
+    //     },
+    // ];
 
 
     return (
-        <div style={{ width: '100%', height: '100%', position: 'relative' }}>
+        <div style={{ width: '100%', height: '100%', position: 'relative' }} >
             <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
                 <Threads
                     amplitude={2}
@@ -74,8 +75,8 @@ export default function About() {
                 />
             </div>
             <div className="about">
-                <div className="about-content">
-                    <div className="about-me">
+                <div className="about-content flex flex-col md:flex-row items-center justify-between gap-12 ">
+                    <div className="about-me p-8">
                         <h2>Sobre mim</h2>
                         <h3>Serviços Oferecidos</h3>
                         <p>
@@ -93,15 +94,16 @@ export default function About() {
                         </p>
 
                     </div>
-                    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-                        <InfiniteScroll
+                    <div style={{ position: 'relative', width: '100%', height: '100%' }} className="pl-0 pr-0 sm:pr-8">
+                        {/* <InfiniteScroll
                             items={items}
-                            isTilted={true}
+                            isTilted={false}
                             tiltDirection='right'
                             autoplay={true}
                             autoplaySpeed={0.1}
                             pauseOnHover={true}
-                        />
+                        /> */}
+                        <MarqueeDemoVertical />
                     </div>
 
 

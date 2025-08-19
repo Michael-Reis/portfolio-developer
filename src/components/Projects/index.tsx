@@ -10,12 +10,22 @@ export default function Projects() {
         {
             title: "Spider-Man Project",
             link: "#",
-            thumbnail: "/projects/spider-man.jpg"
+            thumbnail: "/projects/spider-man.png"
         },
         {
             title: "Star Wars Platform",
             link: "#",
             thumbnail: "/projects/starwars.jpg"
+        },
+        {
+            title: "Câmara de osasco",
+            link: "#",
+            thumbnail: "/projects/mavidey.png"
+        },
+        {
+            title: "Ouro minas",
+            link: "#",
+            thumbnail: "/projects/ouro-minas.png"
         },
         {
             title: "Marvel App",
@@ -25,12 +35,22 @@ export default function Projects() {
         {
             title: "Spider-Man Project",
             link: "#",
-            thumbnail: "/projects/spider-man.jpg"
+            thumbnail: "/projects/spider-man.png"
         },
         {
             title: "Star Wars Platform",
             link: "#",
             thumbnail: "/projects/starwars.jpg"
+        },
+        {
+            title: "Câmara de osasco",
+            link: "#",
+            thumbnail: "/projects/mavidey.png"
+        },
+        {
+            title: "Ouro minas",
+            link: "#",
+            thumbnail: "/projects/ouro-minas.png"
         },
         {
             title: "Marvel App",
@@ -40,14 +60,25 @@ export default function Projects() {
         {
             title: "Spider-Man Project",
             link: "#",
-            thumbnail: "/projects/spider-man.jpg"
+            thumbnail: "/projects/spider-man.png"
         },
         {
             title: "Star Wars Platform",
             link: "#",
             thumbnail: "/projects/starwars.jpg"
         },
-    
+        {
+            title: "Câmara de osasco",
+            link: "#",
+            thumbnail: "/projects/mavidey.png"
+        },
+        {
+            title: "Ouro minas",
+            link: "#",
+            thumbnail: "/projects/ouro-minas.png"
+        },
+     
+
 
     ];
 

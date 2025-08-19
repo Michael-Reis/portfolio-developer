@@ -104,14 +104,14 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0 mt-52">
-      <h1 className="text-4xl md:text-9xl font-bold dark:text-white">
-      O Desenvolvedor que você <br /> Confia
-      </h1>
-      <p className=" text-lg md:text-2xl mt-8 dark:text-neutral-200 leading-relaxed">
-        Sou um desenvolvedor apaixonado por criar experiências digitais únicas e impactantes. 
-        Combinando criatividade, inovação e as tecnologias mais recentes, transformo ideias em 
-        produtos incríveis que fazem a diferença. Meu objetivo é sempre entregar soluções de 
-        alta qualidade, priorizando desempenho, design e funcionalidade. Vamos juntos construir 
+      <p className="text-4xl md:text-5xl font-bold">
+        O Desenvolvedor que você <br /> Confia
+      </p>
+      <p className=" text-lg md:text-2xl mt-8 leading-relaxed">
+        Sou um desenvolvedor apaixonado por criar experiências digitais únicas e impactantes.
+        Combinando criatividade, inovação e as tecnologias mais recentes, transformo ideias em
+        produtos incríveis que fazem a diferença. Meu objetivo é sempre entregar soluções de
+        alta qualidade, priorizando desempenho, design e funcionalidade. Vamos juntos construir
         algo extraordinário?
       </p>
     </div>

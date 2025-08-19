@@ -22,7 +22,7 @@ export default function GoogleGeminiEffectDemo() {
         >
             <GoogleGeminiEffect
                 title="Michael Reis"
-                description="Desenvolvedor Full-Stack | React, Node.js, Python | Transformando ideias em soluções digitais inovadoras."
+                description="Desenvolvedor Full-Stack | React, Node.js, Nest JS Transformando ideias em soluções digitais inovadoras."
                 pathLengths={[
                     pathLengthFirst,
                     pathLengthSecond,

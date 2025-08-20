@@ -10,6 +10,7 @@ import { TimelineDemo } from './components/Timeline';
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
 import { Contact } from './components/Contact';
 import Footer from './components/Footer';
+import { Jobs } from './components/Jobs';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       {/* <CallToAction /> */}
       <TimelineDemo />
       <GoogleGeminiEffectDemo />
+      <Jobs/>
       <Contact />
       <Footer/>
 

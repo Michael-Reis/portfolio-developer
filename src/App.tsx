@@ -5,9 +5,9 @@ import About from './components/About';
 import Technology from './components/Technology';
 import Projects from './components/Projects';
 // import CallToAction from './components/Call';
-import GoogleGeminiEffectDemo from './components/Google';
 import { TimelineDemo } from './components/Timeline';
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
+import GoogleGeminiEffectDemo from './components/Google';
 import { Contact } from './components/Contact';
 import Footer from './components/Footer';
 import { Jobs } from './components/Jobs';
@@ -27,10 +27,10 @@ function App() {
       <Projects />
       {/* <CallToAction /> */}
       <TimelineDemo />
-      {/* <GoogleGeminiEffectDemo /> */}
+      <GoogleGeminiEffectDemo />
       <Jobs/>
       <Contacts/>
-      <Contact />
+      {/* <Contact /> */}
       <Footer/>
       <FloatingButtons />
     </>

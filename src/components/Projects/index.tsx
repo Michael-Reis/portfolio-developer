@@ -2,13 +2,44 @@ import { HeroParallax } from "../ui/hero-parallax";
 
 export default function Projects() {
     const projects = [
+
+
+        {
+            title: "Clean Car",
+            link: "#",
+            thumbnail: "/projects/cleancar.png"
+        },
+
+        {
+            title: "Camara",
+            link: "#",
+            thumbnail: "/projects/camara.png"
+        },
+
+        {
+            title: "Colmeia do Saber",
+            link: "#",
+            thumbnail: "/projects/colmeia-do-saber.png"
+        },
+        {
+            title: "Isabel",
+            link: "#",
+            thumbnail: "/projects/isabel.png"
+        },
         {
             title: "Marvel App",
             link: "#",
             thumbnail: "/projects/marvel.jpg"
         },
+
         {
-            title: "Spider-Man Project",
+            title: "Ouro Minas",
+            link: "#",
+            thumbnail: "/projects/ouro-minas.png"
+        },
+
+        {
+            title: "Spider-Man",
             link: "#",
             thumbnail: "/projects/spider-man.png"
         },
@@ -18,27 +49,46 @@ export default function Projects() {
             thumbnail: "/projects/starwars.jpg"
         },
         {
-            title: "Câmara de osasco",
+            title: "Synix",
             link: "#",
-            thumbnail: "/projects/mavidey.png"
+            thumbnail: "/projects/synix.png"
+        },
+
+        {
+            title: "BBT Brasil",
+            link: "#",
+            thumbnail: "/projects/bbtbrasil.png"
         },
         {
-            title: "Ouro minas",
+            title: "Camara",
             link: "#",
-            thumbnail: "/projects/ouro-minas.png"
+            thumbnail: "/projects/camara.png"
         },
+
         {
-            title: "Colmeia do saber",
+            title: "Colmeia do Saber",
             link: "#",
             thumbnail: "/projects/colmeia-do-saber.png"
+        },
+        {
+            title: "Isabel",
+            link: "#",
+            thumbnail: "/projects/isabel.png"
         },
         {
             title: "Marvel App",
             link: "#",
             thumbnail: "/projects/marvel.jpg"
         },
+
         {
-            title: "Spider-Man Project",
+            title: "Ouro Minas",
+            link: "#",
+            thumbnail: "/projects/ouro-minas.png"
+        },
+
+        {
+            title: "Spider-Man",
             link: "#",
             thumbnail: "/projects/spider-man.png"
         },
@@ -48,54 +98,16 @@ export default function Projects() {
             thumbnail: "/projects/starwars.jpg"
         },
         {
-            title: "Câmara de osasco",
+            title: "Synix",
             link: "#",
-            thumbnail: "/projects/mavidey.png"
-        },
-        {
-            title: "Ouro minas",
-            link: "#",
-            thumbnail: "/projects/ouro-minas.png"
-        },
-        {
-            title: "Colmeia do saber",
-            link: "#",
-            thumbnail: "/projects/colmeia-do-saber.png"
-        },
-        {
-            title: "Marvel App",
-            link: "#",
-            thumbnail: "/projects/marvel.jpg"
-        },
-        {
-            title: "Spider-Man Project",
-            link: "#",
-            thumbnail: "/projects/spider-man.png"
-        },
-        {
-            title: "Colmeia do saber",
-            link: "#",
-            thumbnail: "/projects/colmeia-do-saber.png"
+            thumbnail: "/projects/synix.png"
         },
 
         {
-            title: "Star Wars Platform",
+            title: "BBT Brasil",
             link: "#",
-            thumbnail: "/projects/starwars.jpg"
+            thumbnail: "/projects/bbtbrasil.png"
         },
-        {
-            title: "Câmara de osasco",
-            link: "#",
-            thumbnail: "/projects/mavidey.png"
-        },
-        {
-            title: "Ouro minas",
-            link: "#",
-            thumbnail: "/projects/ouro-minas.png"
-        },
-
-
-
 
     ];
 

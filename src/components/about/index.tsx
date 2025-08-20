@@ -1,5 +1,5 @@
 import Threads from "../Backgrounds/Threads/Threads";
-import InfiniteScroll from "../Components/InfiniteScroll/InfiniteScroll";
+// import InfiniteScroll from "../Components/InfiniteScroll/InfiniteScroll";
 import { MarqueeDemoVertical } from "../Depoiments";
 import ShinyText from "../TextAnimations/ShinyText/ShinyText";
 import "./About.css";
@@ -65,7 +65,7 @@ export default function About() {
 
 
     return (
-        <div style={{ width: '100%', height: '100%', position: 'relative' }} >
+        <div style={{ width: '100%', height: '100%', position: 'relative' }} id="me" >
             <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0 }}>
                 <Threads
                     amplitude={2}

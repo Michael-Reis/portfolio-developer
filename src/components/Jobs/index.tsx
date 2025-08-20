@@ -1,10 +1,11 @@
 "use client";
 import { ThreeDMarquee } from "@/components/ui/3d-marquee";
 import { RainbowButton } from "../magicui/rainbow-button";
+import { handleScroll } from "@/lib/utils";
 
 export function Jobs() {
     const images = [
-    
+
         "/projects/synix.png",
         "/projects/camara.png",
         "/projects/colmeia-do-saber.png",
@@ -41,10 +42,10 @@ export function Jobs() {
         "/projects/bbtbrasil.png",
         "/projects/cleancar.png",
         "/projects/isabel.png",
-    
+
     ];
     return (
-        <div className="relative mx-auto my-10 flex h-screen w-full max-w-7xl flex-col items-center justify-center overflow-hidden rounded-3xl">
+        <div className="relative mx-auto mt-10 mb-0 flex sm:h-screen h-[500px] w-full max-w-7xl flex-col items-center justify-center overflow-hidden rounded-3xl">
             <h2 className="relative z-20 mx-auto max-w-4xl text-center text-2xl font-bold text-balance text-white md:text-4xl lg:text-6xl">
                 Desenvolvimento de Software{" "}
                 <span className="relative z-20 inline-block rounded-xl bg-blue-500/40 px-4 py-1 text-white underline decoration-sky-500 decoration-[6px] underline-offset-[16px] backdrop-blur-sm">
@@ -58,7 +59,9 @@ export function Jobs() {
 
             <div className="relative z-20 flex flex-wrap items-center justify-center gap-4 pt-4">
 
-                <RainbowButton>Entrar em contato</RainbowButton>
+                <RainbowButton
+                    onClick={e => handleScroll(e, 'contact')}
+                >Entrar em contato</RainbowButton>
 
             </div>
 

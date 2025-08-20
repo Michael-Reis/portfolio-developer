@@ -1,3 +1,4 @@
+import { handleScroll } from "@/lib/utils";
 import BlurText from "../TextAnimations/BlurText/BlurText";
 import ShinyText from "../TextAnimations/ShinyText/ShinyText";
 import "./HeaderContent.css";
@@ -29,8 +30,8 @@ export default function HeaderContent() {
             />
 
             <div className="buttons-header">
-                <button>Sobre mim</button>
-                <button>  <ShinyText text="Entrar em contato" disabled={false} speed={5} className='custom-class' /></button>
+                <button onClick={e => handleScroll(e, 'me')}>Sobre mim</button>
+                <button onClick={e => handleScroll(e, 'contact')}>  <ShinyText text="Entrar em contato" disabled={false} speed={5} className='custom-class' /></button>
             </div>
         </div >
     )

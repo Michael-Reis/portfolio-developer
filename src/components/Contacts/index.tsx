@@ -3,7 +3,7 @@ export default function Contacts() {
     return (
 
         <>
-            <div className="relative bg-linear-to-bl via-transparent dark:from-blue-950 dark:via-transparent mt-20">
+            <div className="relative bg-linear-to-bl via-transparent dark:from-blue-950 dark:via-transparent mt-0 sm:mt-20" id="contact">
                 <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8  mx-auto">
                     <div className="grid items-center md:grid-cols-2 gap-8 lg:gap-12">
                         <div>
@@ -12,22 +12,26 @@ export default function Contacts() {
                             </p>
 
                             <div className="mt-4 md:mb-12 max-w-2xl">
-                                <h1 className="mb-4 font-semibold text-neutral-200">
+                                <p className="mb-4 font-semibold text-neutral-200 text-2xl sm:text-5xl">
                                     Solicite uma proposta sob medida para o seu projeto!
-                                </h1>
-                                <p className="text-neutral-400">
+                                </p>
+                                <p className="text-neutral-400 text-left">
                                     Preencha seus dados abaixo e entrarei em contato para entender sua necessidade e apresentar a melhor solução digital para você ou sua empresa.
                                 </p>
                             </div>
-                            <blockquote className="hidden md:block relative max-w-sm">
-                                <svg className="absolute top-0 start-0 transform -translate-x-6 -translate-y-8 size-16  text-neutral-800" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z" fill="currentColor" />
-                                </svg>
+                            <blockquote className=" md:block  flex items-center flex-col">
 
-                                <div className="relative z-10">
-                                    <p className="text-base italic text-white">
-                                        "Obrigado por identificar e relatar uma falha de segurança em nosso site."
-                                    </p>
+                                <div className="relative  mt-20 md:mt-0 ">
+
+                                    <svg className="absolute top-0 start-0 ml-5 sm:ml-0 transform -translate-x-6 -translate-y-8 size-16  text-neutral-800" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                        <path d="M7.39762 10.3C7.39762 11.0733 7.14888 11.7 6.6514 12.18C6.15392 12.6333 5.52552 12.86 4.76621 12.86C3.84979 12.86 3.09047 12.5533 2.48825 11.94C1.91222 11.3266 1.62421 10.4467 1.62421 9.29999C1.62421 8.07332 1.96459 6.87332 2.64535 5.69999C3.35231 4.49999 4.33418 3.55332 5.59098 2.85999L6.4943 4.25999C5.81354 4.73999 5.26369 5.27332 4.84476 5.85999C4.45201 6.44666 4.19017 7.12666 4.05926 7.89999C4.29491 7.79332 4.56983 7.73999 4.88403 7.73999C5.61716 7.73999 6.21938 7.97999 6.69067 8.45999C7.16197 8.93999 7.39762 9.55333 7.39762 10.3ZM14.6242 10.3C14.6242 11.0733 14.3755 11.7 13.878 12.18C13.3805 12.6333 12.7521 12.86 11.9928 12.86C11.0764 12.86 10.3171 12.5533 9.71484 11.94C9.13881 11.3266 8.85079 10.4467 8.85079 9.29999C8.85079 8.07332 9.19117 6.87332 9.87194 5.69999C10.5789 4.49999 11.5608 3.55332 12.8176 2.85999L13.7209 4.25999C13.0401 4.73999 12.4903 5.27332 12.0713 5.85999C11.6786 6.44666 11.4168 7.12666 11.2858 7.89999C11.5215 7.79332 11.7964 7.73999 12.1106 7.73999C12.8437 7.73999 13.446 7.97999 13.9173 8.45999C14.3886 8.93999 14.6242 9.55333 14.6242 10.3Z" fill="currentColor" />
+                                    </svg>
+
+                                    <div className="relative z-10">
+                                        <p className="text-base italic text-white">
+                                            "Obrigado por identificar e relatar uma falha de segurança em nosso site."
+                                        </p>
+                                    </div>
                                 </div>
 
                                 <footer className="mt-3">
@@ -36,9 +40,9 @@ export default function Contacts() {
                                             <img className="size-8 rounded-full" src="/depoiments/laudir.jpg" alt="Avatar" />
                                         </div>
                                         <div className="grow">
-                                            <div className="font-semibold text-neutral-200">
+                                            <div className="font-semibold text-neutral-200 text-left">
                                                 Laudir Winck</div>
-                                            <div className="text-xs text-neutral-500">
+                                            <div className="text-xs text-neutral-500 text-left">
                                                 Head de tecnologia | Croagro
                                             </div>
                                         </div>
@@ -52,7 +56,7 @@ export default function Contacts() {
                                 <div className="lg:max-w-lg lg:mx-auto lg:me-0 ms-auto">
                                     <div className="p-4 sm:p-7 flex flex-col rounded-2xl shadow-lg bg-neutral-900">
                                         <div className="text-center">
-                                            <h1 className="block text-1xl font-semibold text-white">Contato</h1>
+                                            <p className="block text-2xl sm:text-5xl font-semibold text-white">Contato</p>
                                             <p className="mt-2 text-sm text-neutral-400">
                                                 Preencha o formulário abaixo para receber uma proposta ou tirar dúvidas sobre desenvolvimento de software.
                                             </p>
@@ -297,7 +301,7 @@ export default function Contacts() {
                         <svg className="py-3 lg:py-5 w-16 h-auto md:w-20 lg:w-24 text-gray-500 dark:text-neutral-500" xmlns="http://www.w3.org/2000/svg" width="2500" height="1036" viewBox="0 -6.166 294.398 121.975"><path d="M12.139 90.511c-3.939 0-7.799-.479-10.938-1.292l.487-8.277c3.053 1.123 7.313 2.012 11.254 2.012 5.952 0 10.775-2.492 10.775-8.359C23.718 63.172 0 68.002 0 50.466c0-9.325 7.315-15.834 19.941-15.834 3.214 0 6.51.397 9.809.959l-.485 7.802c-3.132-.963-6.591-1.527-9.806-1.527-6.754 0-10.211 3.134-10.211 7.638 0 10.855 23.72 6.839 23.72 23.798-.005 9.973-7.882 17.209-20.829 17.209M54.106 90.264c-2.249 0-3.938-.076-6.03-.479v17.397h-8.601V49.746h8.12c0 2.094-.082 5.309-.484 7.476h.162c2.25-5.068 6.833-8.283 12.944-8.283 9.487 0 14.712 6.75 14.712 18.814.001 14.076-7.473 22.511-20.823 22.511m3.861-34.246c-6.434 0-9.892 7.558-9.892 14.384v12.312c1.852.562 3.86.804 6.272.804 6.833 0 11.497-4.182 11.497-14.958.001-8.039-2.49-12.542-7.877-12.542zM102.519 57.381C94.561 55.936 90.7 61.485 90.7 73.466v16.238h-8.606V49.746H90.3c0 2.246-.246 5.791-.809 8.844h.162c1.771-5.388 5.79-10.377 13.271-9.651l-.405 8.442M114.803 43.797c-3.056 0-5.55-2.414-5.55-5.393 0-2.971 2.494-5.385 5.55-5.385 2.974 0 5.467 2.333 5.467 5.385 0 2.979-2.493 5.393-5.467 5.393m4.26 45.907h-8.6V49.746h8.6v39.958zM154.449 89.704V63.975c0-4.982-1.374-7.875-5.951-7.875-6.03 0-10.457 6.345-10.457 14.302v19.303h-8.603V49.746h8.203c0 2.094-.162 5.546-.563 7.796l.082.075c2.33-5.141 7.157-8.68 13.91-8.68 9.084 0 11.9 5.711 11.9 12.787v27.979h-8.521M186.675 90.425c-8.524 0-11.1-3.294-11.1-12.214V56.417h-7.634v-6.671h7.634V37.04l8.523-2.333v15.039h10.532v6.671h-10.448v19.137c0 5.954 1.205 7.558 5.224 7.558 1.769 0 3.699-.24 5.226-.643v7.076c-2.331.486-5.307.88-7.957.88" fill="currentColor" /><path d="M233.712 78.636c11.72-15.086 20.938-32.809 20.938-45.537 0-6.652-4.765-11.295-10.978-14.823.123 13.831-4.668 46.263-9.96 60.36M195.279 115.809c27.47-9.188 67.29-30.598 94.985-49.725 2.324-1.6 4.135-3.085 4.135-5.685 0-4.519-8.275-10.576-12.292-12.987-21.792 22.653-65.163 56.596-86.828 68.397" fill="currentColor" /><path d="M220.76 96.567c16.938-11.709 41.545-33.739 49.873-45.727 1.963-2.82 3.416-4.454 3.416-7.405 0-4.839-5.644-8.382-9.703-10.849-9.727 22.924-31.579 51.469-43.586 63.981M236.192 64.087c2.191-14.477.903-31.952-1.894-42.913-1.521-5.969-6.901-12.706-11.88-14.812 6.526 18.522 12.128 44.898 13.774 57.725" fill="currentColor" /><path d="M231.367 43.779C226.235 29.91 213.446.998 194.633-6.165c12.247 13.516 30.417 40.337 36.734 49.944" fill="currentColor" /></svg>
                     </div> */}
 
-                    
+
                 </div>
             </div>
         </>

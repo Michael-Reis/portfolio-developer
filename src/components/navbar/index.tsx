@@ -11,10 +11,10 @@ export default function Navbar() {
                 <div className="navbar-links">
                     <ul>
                         <li>
-                            <a href="#inicio" onClick={e => handleScroll(e, 'inicio')}>Inicio</a>
+                            <a href="#inicio" onClick={e => handleScroll(e, 'initial')}>Inicio</a>
                         </li>
                         <li>
-                            <a href="#contato" onClick={e => handleScroll(e, 'contato')}>Contato</a>
+                            <a href="#contato" onClick={e => handleScroll(e, 'contact')}>Contato</a>
                         </li>
                     </ul>
                 </div>

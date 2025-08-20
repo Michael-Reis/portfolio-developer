@@ -8,7 +8,7 @@ import Projects from './components/Projects';
 import { TimelineDemo } from './components/Timeline';
 import { ScrollProgress } from "@/components/magicui/scroll-progress";
 import GoogleGeminiEffectDemo from './components/Google';
-import { Contact } from './components/Contact';
+// import { Contact } from './components/Contact';
 import Footer from './components/Footer';
 import { Jobs } from './components/Jobs';
 import { FloatingButtons } from './components/FloatingButtons';

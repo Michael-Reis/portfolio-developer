@@ -11,6 +11,8 @@ import { ScrollProgress } from "@/components/magicui/scroll-progress";
 import { Contact } from './components/Contact';
 import Footer from './components/Footer';
 import { Jobs } from './components/Jobs';
+import { FloatingButtons } from './components/FloatingButtons';
+import Contacts from './components/Contacts';
 
 
 function App() {
@@ -25,11 +27,12 @@ function App() {
       <Projects />
       {/* <CallToAction /> */}
       <TimelineDemo />
-      <GoogleGeminiEffectDemo />
+      {/* <GoogleGeminiEffectDemo /> */}
       <Jobs/>
+      <Contacts/>
       <Contact />
       <Footer/>
-
+      <FloatingButtons />
     </>
   )
 }

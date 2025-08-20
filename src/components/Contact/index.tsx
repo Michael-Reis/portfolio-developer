@@ -1,10 +1,9 @@
-import { BorderBeam } from "@/components/magicui/border-beam";
 import { OrbitingCirclesDemo } from "../OrbContact";
 import BlurText from "../TextAnimations/BlurText/BlurText";
 
 export function Contact() {
     return (
-        <div className="flex justify-center items-center w-full px-4 mt-60">
+        <div id="contato" className="flex justify-center items-center w-full px-4 ">
             <div className="relative w-full max-w-[1300px] overflow-hidden rounded-3xl p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                     {/* Coluna esquerda - Informações */}
@@ -67,6 +66,7 @@ export function Contact() {
                     {/* Coluna direita - Formulário */}
                     <div className="relative ">
                         <OrbitingCirclesDemo />
+
                     </div>
                 </div>
             </div>

@@ -15,7 +15,6 @@ export default function Header() {
                 scale={0.2}
                 rotation={30}
             />
-            {/* Gradiente para esmaecimento na parte inferior */}
             <div
                 style={{
                     position: 'absolute',
